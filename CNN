@@ -1,7 +1,9 @@
 
 Multi-layered NN 을 비전에 적용할 때의 문제점 -> http://laonple.blog.me/220587920012
+
 글자의 topology 는 고려하지 않고, 말 그대로 raw data 에 대해서 직접 처리하기 때문에 엄청나게 학습 데이터가 많이 필요하게 되고, 
 또한 거기에 따른 학습 시간을 대가로 치뤄야 한다는 점.
+
 결과적으로 기존의 fully-connected multi-layered NN 를 사용하면, 다음과 같은 3가지 측면에서 문제가 발생함.
 1. 학습 시간
 2. 네트웍의 크기
