@@ -26,7 +26,7 @@ max-pooling 방식의 sub-sampling 과정을 거치면서 영상의 크기를 �
 Convolution 의 개념을 설명할 때 보았던 것처럼, 동일한 개수를 갖는 filter 를 전체 영상에 반복적으로 적용함으로써 
 변수의 수를 획기적으로 줄일 수 있으며, topology 변화에 무관한 항상성 (invariance) 를 얻을 수 있게 된다.
 
-CNN 의 과정은 다음과 같다.
+CNN 의 과정은 다음과 같다. <br>
 Input -> Feature extraction (filter) -> Shift and distortion invariance (sub-sampling) -> Classification -> Output (edited)
 
 즉,
