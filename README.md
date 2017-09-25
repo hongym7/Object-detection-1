@@ -1,4 +1,4 @@
-# Object-detection
+# CNN
 
 Multi-layered NN 을 비전에 적용할 때의 문제점 -> http://laonple.blog.me/220587920012
 
