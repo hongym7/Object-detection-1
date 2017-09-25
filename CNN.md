@@ -1,11 +1,10 @@
 # CNN
 
-Multi-layered NN 을 비전에 적용할 때의 문제점 -> http://laonple.blog.me/220587920012 
-
+Multi-layered NN 을 비전에 적용할 때의 문제점 -> http://laonple.blog.me/220587920012 <br>
 글자의 topology 는 고려하지 않고, 말 그대로 raw data 에 대해서 직접 처리하기 때문에 엄청나게 학습 데이터가 많이 필요하게 되고, 
 또한 거기에 따른 학습 시간을 대가로 치뤄야 한다는 점.
 
-결과적으로 기존의 fully-connected multi-layered NN 를 사용하면, 다음과 같은 3가지 측면에서 문제가 발생함.
+결과적으로 기존의 fully-connected multi-layered NN 를 사용하면, 다음과 같은 3가지 측면에서 문제가 발생함.<br>
 1. 학습 시간
 2. 네트웍의 크기
 3. 변수의 개수
@@ -13,8 +12,7 @@ Multi-layered NN 을 비전에 적용할 때의 문제점 -> http://laonple.blog
 영상 처리 분야에서 convolution 은 주로 filter 연산에 사용이 되며, 
 영상으로부터 특정 Feature 들을 추출하기 위한 필터를 구현할 때 convolution 을 사용한다.
 
-CNN 은 multi-layered NN 에 비해 다음과 같은 중요한 특징을 갖는다.
-
+CNN 은 multi-layered NN 에 비해 다음과 같은 중요한 특징을 갖는다.<br>
 1. Locality (local connectivity): 
 CNN 은 local 정보를 활용한다. 
 공간적으로 인접한 신호들에 대한 correlation 관계를 비선형 필터를 적용하여 추출해 낸다. 
